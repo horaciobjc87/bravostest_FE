@@ -41,30 +41,23 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Este proyecto es una interfaz web construida con **React** y **Bootstrap**, que consume los datos de un backend Flask que a su vez accede a la [Dog API](https://dogapi.dog/docs/api-v2).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🎯 Funcionalidades
 
-### Code Splitting
+- Obtener lista de razas de perros desde el backend (`/breeds`)
+- Mostrar datos en una tabla
+- Visualizar gráfico de esperanza de vida promedio por raza
+- Filtros para buscar razas (opcional)
+- Estilizado con Bootstrap 5
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 🚀 Requisitos
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Node.js >= 14.x
+- npm o yarn
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+Es indispensable tener corriendo el API: dog_api_backends.py
+---
